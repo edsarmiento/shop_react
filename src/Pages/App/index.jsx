@@ -7,6 +7,8 @@ import MyOrders from '../MyOrders'
 import NotFound from '../NotFound'
 import SignIn from '../SignIn'
 
+import NavBar from "../../Components/Navbar"
+
 import './App.css'
 
 const AppRoutes = () => {
@@ -29,6 +31,7 @@ function App() {
       <div className='bg-green-100'>
         <BrowserRouter>
           <AppRoutes />
+          <NavBar />
         </BrowserRouter>
       </div>
     </>
